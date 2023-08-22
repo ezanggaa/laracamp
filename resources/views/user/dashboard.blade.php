@@ -31,7 +31,7 @@
                                     </p>
                                 </td>
                                 <td>
-                                    <strong>${{ $checkout->Camp->price }}k</strong>
+                                    <strong>Rp. {{ $checkout->total }}</strong>
                                 </td>
                                 <td>
                                     <strong>{{ $checkout->payment_status }}</strong>

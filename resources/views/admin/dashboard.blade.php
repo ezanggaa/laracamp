@@ -25,7 +25,7 @@
                                     <tr>
                                         <td>{{ $checkout->User->name }}</td>
                                         <td>{{ $checkout->Camp->title }}</td>
-                                        <td>{{ $checkout->Camp->price }}k</td>
+                                        <td>Rp. {{ $checkout->total }}</td>
                                         <td>{{ $checkout->created_at->format('M d Y') }}</td>
                                         <td>
                                             <strong>{{ $checkout->payment_status }}</strong>
